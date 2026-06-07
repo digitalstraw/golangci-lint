@@ -919,6 +919,7 @@
             "prealloc",
             "predeclared",
             "promlinter",
+            "propro",
             "protogetter",
             "reassign",
             "recvcheck",
@@ -3257,6 +3258,27 @@
             }
           }
         },
+        "proproSettings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "entity-list-files": {
+              "description": "Paths to Go source files defining the list of protected structs",
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            },
+            "structs": {
+              "description": "List of struct names to protect",
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
         "protogetterSettings": {
           "type": "object",
           "additionalProperties": false,
@@ -5169,6 +5191,9 @@
             },
             "promlinter": {
               "$ref": "#/definitions/settings/definitions/promlinterSettings"
+            },
+            "propro": {
+              "$ref": "#/definitions/settings/definitions/proproSettings"
             },
             "protogetter": {
               "$ref": "#/definitions/settings/definitions/protogetterSettings"

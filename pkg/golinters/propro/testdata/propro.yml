@@ -1,0 +1,9 @@
+version: "2"
+
+linters:
+  settings:
+    propro:
+      entity-list-files:
+        - pkg/golinters/propro/testdata/entities/entities.go
+      structs:
+        - SubEntity

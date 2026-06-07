@@ -54,6 +54,7 @@ require (
 	github.com/curioswitch/go-reassign v0.3.0
 	github.com/daixiang0/gci v0.13.7
 	github.com/denis-tingaikin/go-header v0.5.0
+	github.com/digitalstraw/propro/v3 v3.0.1
 	github.com/fatih/color v1.19.0
 	github.com/firefart/nonamedreturns v1.0.6
 	github.com/fzipp/gocyclo v0.6.0
